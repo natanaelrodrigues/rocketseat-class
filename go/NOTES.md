@@ -4,7 +4,7 @@ Para instalar os pacotes GO no vsCode
 
 ## digitar go:up
 
-## selecionar todos os pacotes e dar um okay
+## selecionar todos os pacotes e dar um okay Instalar também o gopls
 
 Para criar um módulo go em um projeto novo (Sempre que criar um projeto novo)
 
