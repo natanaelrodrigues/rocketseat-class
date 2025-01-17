@@ -16,3 +16,6 @@ Para incluir uma dependencia no projeto
 
 Tornar uma dependencia direta, sempre rodar depois que adiciona um pacote e começa a usar no projeto
 ## go mod tidy
+
+
+### TREINAMENTO PARADO NO PACOTE JSON...
