@@ -1,0 +1,6 @@
+"""
+comparadores logicos:
+
+and 
+or
+"""
