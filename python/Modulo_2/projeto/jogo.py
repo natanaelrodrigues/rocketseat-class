@@ -62,9 +62,10 @@ class Jogo:
   """
   Classe orquestradora do Jogo
   """
+  vidas = [65, 70 ,75, 80, 85 ,90, 100, 120]
   def __init__(self):
-    self.heroi = Heroi(nome="Herói", vida=100, nivel=5, habilidade="Super Força")
-    self.inimigo = Inimigo(nome="Morcego", vida=80, nivel=5, tipo="Voador")
+    self.heroi = Heroi(nome="Herói", vida=random.choice(self.vidas), nivel=5, habilidade="Super Força")
+    self.inimigo = Inimigo(nome="Morcego", vida=random.choice(self.vidas), nivel=5, tipo="Voador")
       
   def iniciar_batalha(self):
     """
