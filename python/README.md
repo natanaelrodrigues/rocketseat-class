@@ -10,3 +10,6 @@ Flask
 - pip3 install flask==2.3.0
 ou
 - pip3 install -r requirements.txt
+
+Pytest
+-docs.pytest.org
