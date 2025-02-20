@@ -13,3 +13,11 @@ ou
 
 Pytest
 -docs.pytest.org
+
+Para rodar os comandos do python...
+-python -m flask shell
+
+Para rodar as alterações de tabelas no flask
+db.create_all()
+db.session.commit()
+exit()
