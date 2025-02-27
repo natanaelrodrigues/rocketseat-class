@@ -31,7 +31,6 @@ def login():
    
     if user and bcrypt.checkpw(str.encode(password), str.encode(user.password)):
       login_user(user)
-      print(current_user.is_authenticated)
       return jsonify({"message": "Autenticação realizada com sucesso"})
    
   return jsonify({"message": "Credenciais inválidas!"}), 400
