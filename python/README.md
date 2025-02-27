@@ -21,3 +21,7 @@ Para rodar as alterações de tabelas no flask
 db.create_all()
 db.session.commit()
 exit()
+
+
+Docker
+- docker-compose up -d
