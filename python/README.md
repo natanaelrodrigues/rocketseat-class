@@ -1,14 +1,15 @@
 # Notas para as Aulas de Python
 
 Dicas de extensões para Python no vsCode
+
 - Python (Selo microsoft)
 - Omni Theme
 - Material Icon Theme
 
-
 Flask
+
 - pip3 install flask==2.3.0
-ou
+  ou
 - pip3 install -r requirements.txt
 
 Pytest
@@ -22,6 +23,10 @@ db.create_all()
 db.session.commit()
 exit()
 
-
 Docker
+
 - docker-compose up -d
+
+pyenv
+
+- pyenv local 3.12.0
