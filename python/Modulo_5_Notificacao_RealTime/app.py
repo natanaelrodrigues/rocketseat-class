@@ -11,6 +11,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 
 db.init_app(app)
 
+def format_value(value):
+    return f"{value:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
 @app.route('/payments/pix', methods=['POST'])
 def create_payment_pix():
   data = request.get_json()
@@ -48,7 +51,7 @@ def payment_pix_page(payment_id):
 
   return render_template('payment.html', 
                          payment_id=payment.id, 
-                         value=payment.value, 
+                         value=format_value(payment.value), 
                          host='http://127.0.0.1:5000', 
                          qr_code=payment.qr_code )
 
