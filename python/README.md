@@ -30,3 +30,6 @@ Docker
 pyenv
 
 - pyenv local 3.12.0
+
+numpy
+- pip install numpy
