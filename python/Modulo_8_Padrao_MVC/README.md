@@ -1,5 +1,7 @@
 # VIRTUALENV
 
+## Instalar a extensão do pylinkt
+
 ## Instalação
 pip install virtualenv (windows)
 pip3 install virtualenv (linux)
@@ -23,3 +25,19 @@ venv/scripts/pip3 freeze > requirements.txt
 
 ## Instalar um pacote via requirements
 pip install -r requirements.txt
+
+## Configuração vsCode
+.vscode/settings.json
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
+  },
+  "python.linting.enabled": true,
+  "python.linging.pylintEnable":true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true
+}
+
+# Configuração manual do pylint
+pylint --generate-rcfile > .pylintrc
