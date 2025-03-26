@@ -41,3 +41,6 @@ pip install -r requirements.txt
 
 # Configuração manual do pylint
 pylint --generate-rcfile > .pylintrc
+
+# Instalação do SQLAlchemy
+pip install SQLAlchemy
